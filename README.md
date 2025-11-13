@@ -8,6 +8,6 @@ There is no acquisition method in survival.
 生存模式暂无获取途径。
 
 # Compatibility（兼容性）
-Only be compatible with 1.21.4.
+Only be compatible with 1.21.4 and 1.21.8.
 
-仅兼容 1.21.4。
+仅兼容 1.21.4 及 1.21.8。

@@ -14,7 +14,7 @@ import org.bukkit.inventory.EquipmentSlotGroup;
 public class BootStrap implements PluginBootstrap {
     @Override
     public void bootstrap(BootstrapContext context) {
-        context.getLifecycleManager().registerEventHandler(RegistryEvents.ENCHANTMENT.freeze().newHandler(event -> {
+        context.getLifecycleManager().registerEventHandler(RegistryEvents.ENCHANTMENT.compose().newHandler(event -> {
             event.registry().register(
                     EnchantmentKeys.create(Key.key("phantomimitation:phantomimitation")),
                     enchantmentBuilder -> enchantmentBuilder
